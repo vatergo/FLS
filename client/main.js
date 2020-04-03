@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Layout from './pages/Layout';
+import Main from './components/Main';
 
 ReactDOM.render(<Router basename={'/'}>
-    <Layout />
+    <Main />
 </Router>, document.getElementById('mount-point'));
